@@ -9,10 +9,10 @@ namespace PLC_COM_CS
 {
     class Conexao
     {
-        private ModbusClient clp = new ModbusClient();
-        private int[] registros;
-        private bool[] coils;
-        public bool con;
+        private ModbusClient clp = new ModbusClient(); //variavel conexão com CLP
+        private int[] registros; // variavel de retorno dos registros
+        private bool[] coils; // variavel de retorno das bobinas
+        public bool con; // variavel de verificação se conectado ou não
 
 
 
